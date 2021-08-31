@@ -1,20 +1,23 @@
 <template>
-  <todo/>
+  <emp/>
 </template>
 
 <script>
-import todo from './components/todo.vue'
+
+
+import emp from './components/emp.vue'
 
 export default {
   name: 'App',
   components: {
-    todo
+    emp
   }
 }
 
     </script>
 
 <style>
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
